@@ -25,9 +25,9 @@ export const NavBarWrap = styled.ul`
     align-items: center;
     position: absolute;
     top:0px;
-    left:220px;
+    left:240px;
     li{
-        margin-right: 80px;
+        margin-right: 100px;
         position: relative;
         &:hover::after{
             content:"";

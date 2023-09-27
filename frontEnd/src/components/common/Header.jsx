@@ -14,7 +14,7 @@ const Header = () => {
                 <NavBar setHide={setHide}/>
                 <TopNav/>
             </div>
-            <NavDetail hide={hide}/>
+            <NavDetail hide={hide} setHide={setHide}/>
         </HeaderWrap>
     );
 };

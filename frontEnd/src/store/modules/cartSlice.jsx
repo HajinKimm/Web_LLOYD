@@ -1,7 +1,8 @@
-import {createSlice, createAsyncThunk} from '@reduxjs/toolkit'
-import axios from 'axios'
+import {createSlice} from '@reduxjs/toolkit'
+import products from '../../assets/api/products.json'
 
 const initialState={
+    originalData : products,
     cartData:[]
 }
 

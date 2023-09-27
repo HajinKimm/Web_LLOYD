@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { NavDetailWrap } from '../../styled/HeaderStyle';
 
-const NavDetail = ({hide}) => {
+const NavDetail = ({hide,setHide}) => {
     return (
-        <NavDetailWrap className={hide?'':'on'}>
+        <NavDetailWrap className={hide?'':'on'} onMouseEnter={()=>{setHide(false)}} onMouseLeave={()=>{setHide(true)}}>
             <ul className='navLeft'>
                 <li>
                     <Link to={''} className='title'>주얼리</Link>

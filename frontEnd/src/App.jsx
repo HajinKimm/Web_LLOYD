@@ -3,6 +3,8 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import GlobalStyle from './styled/Golbal';
+import ProductDetail from './pages/ProductDetail';
+import Attend from './pages/Attend';
 const App = () => {
   return (
     <BrowserRouter>
@@ -10,7 +12,19 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index element={<Home/>}/>
+
+          <Route path='/attend' element={<Attend/>}/>
+
           {/* <Route path='/cart' element={<Cart/>}/> */}
+
+          <Route path='/SignatureCollection'>
+            {/* <Route path=':SignatureCollectionID' element={<SignatureCollection/>}/> */}
+          </Route>
+
+          <Route path='/productDetail'>
+            <Route path=':productDetailID' element={<ProductDetail/>}/>
+          </Route>
+
         </Route>
       </Routes>
     </BrowserRouter>
