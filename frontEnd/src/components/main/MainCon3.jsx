@@ -29,7 +29,7 @@ const MainCon3 = () => {
                                 <div className='imgBox'><img src={item.img} alt={item.number} /></div>
                                 <div>
                                     {
-                                        item.newItem&&<span className='new'>{item.newItem.toUpperCase()}</span>
+                                        item.newItem&&<span className='new'>NEW</span>
                                     }
                                     <span>BEST</span>
                                     <h4>{item.message}{item.title}</h4>

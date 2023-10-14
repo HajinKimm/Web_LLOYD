@@ -8,7 +8,7 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 const collection=[
-    {id:1,img:"https://img.lloydgift.com/images/web/Display/template/202309/20230912162050264001.jpg", title:"Vermeil Collection",category:"VermeilCollection",desc:"2023 뉴 F/W 컬렉션"},
+    {id:1,img:"https://img.lloydgift.com/images/web/Display/template/202309/20230912162050264001.jpg",title:"Vermeil Collection",category:"VermeilCollection",desc:"2023 뉴 F/W 컬렉션"},
     {id:2,img:"https://img.lloydgift.com/images/web/Display/template/202307/20230727095337277001.jpg",title:"Modern British",category:"ModernBritish",desc:"더 뉴 시그니처 컬렉션"},
     {id:3,img:"https://img.lloydgift.com/images/web/Display/template/202307/20230727095344393001.jpg",title:"Shine Drop",category:"ShineDrop",desc:"영원한 아름다움을 곁에 두세요"},
     {id:4,img:"https://img.lloydgift.com/images/web/Display/template/202307/20230727095350028001.jpg",title:"Cullinan Diamond",category:"CullinanDiamond",desc:"별과 같이 빛나는 여왕의 다이아몬드"},
